@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #ff0000cc ; 
+}
+
+.titulo{
+    max-width: 30%;
+    margin: 3rem auto;
+}
+
+.titulo img{
+    width: 100%;
+}
+
+.audio-abertura{
+    color: #ffffff;
+    font-weight: 400;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+audio{
+    margin: .5rem;
+    width: 250px;
+}
+
+.pokedex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    
+}
+.card-pokemon{
+    background: url('../img/bg-card.jpg') no-repeat center center;
+    border: 10px solid #e6dd68;
+    border-radius: 5%;
+    color: #2c2c2c;
+    height: 450px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 30%;
+}
+
+.card-pokemon:hover{
+    animation: bounce 0.5s linear;
+}
+
+@keyframes bounce{
+    20%{
+        transform: translateY(-8px);
+    }
+
+    40%{
+        transform: translateY(0px);
+    }
+
+    60%{
+        transform: translateY(-6px);
+    }
+
+    80%{
+        transform: translateY(-0px);
+    }    
+}
+
+.card-pokemon--imagem{
+    margin: 1rem auto;      
+}
+
+.card-pokemon--imagem img{
+    background: #ffffff;
+    border-radius: 50%;    
+    height: 200px;
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.card-pokemon--titulo{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;   
+}
+
+.card-pokemon--tipo{
+    font-size: .8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.card-pokemon--habilidades{
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.card-pokemon--favorito{
+    margin: .5rem auto;
+}
+
+.card-pokemon--aviso{
+    color: #ff0000;
+    font-size: .65em;
+    padding: 0.5rem;
+    animation: disable 1s 2 linear;
+    opacity: 1;
+    transition: display 1s linear;
+}
+
+@keyframes disable{
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+footer{
+    background-color: #ffffff;
+    color: #2c2c2c;
+    font-weight: 500;
+    padding: 1rem;
+    text-align: center;
+}
