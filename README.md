@@ -1,7 +1,7 @@
 # Projeto Pokedex
 
 
-<img align="center" alt="Diego-HTML" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1024px-International_Pok%C3%A9mon_logo.svg.png">
+<img align="center" alt="logo" width="400px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1024px-International_Pok%C3%A9mon_logo.svg.png">
 
 
 ### Stacks Utilizadas
@@ -17,5 +17,5 @@ O Projeto Pokedex, é um projeto criado em HTML5 e CSS3 para estruturação e es
 e exibe na tela os dados referentes aos pokemons. O projeto foi criado para testar as habilidades Front-End para criação de um site que 
 consome dados vindos de uma API e apresenta de uma forma amigavel ao usuário.
 
-<img align="center" alt="Diego-HTML" height="30" width="40" src="https://seeklogo.com/images/P/pikachu-logo-619ACB690E-seeklogo.com.png">
+<img align="right" alt="pikachu" width="200px" src="https://seeklogo.com/images/P/pikachu-logo-619ACB690E-seeklogo.com.png">
 
